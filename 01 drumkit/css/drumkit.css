@@ -1,0 +1,89 @@
+/*	GENERAL STYLING	*/
+html{
+	background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+ 	background-size: cover;
+ 	height:100%;
+}
+html,body{
+	margin:0;
+	padding:0;	
+}
+header{	
+	height:200px;
+	background-color:#333;
+	font-family: 'Permanent Marker', cursive;
+	color:#fff;
+}
+header h1,header h2{
+	margin-top:0px;
+	padding:12px 0 0 12px;	
+	text-align:center;
+}
+header h1{
+	font-size:3em;
+}
+header h2{
+	font-size:2em;
+	color:#eee;
+}
+main,footer{
+	 font-family: 'Oswald', sans-serif;
+}
+.keys{
+	width:70%;
+	padding-top:15%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.key{
+	width:75px;
+	height:75px;
+	float:left;
+	margin:20px;
+	border:5px solid black;
+	border-radius:5px;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	text-align:center;
+}
+kbd{
+	font-size:3em;
+}
+.sound{
+	display:block;
+}
+.playing{
+	box-shadow: 0 0 rgba(204,169,44,0.8);
+	animation: pulse 1s;
+	animation-iteration-count: 5;
+}
+footer{
+	text-align:center;
+	height:38px;
+	width:100%;
+	background-color:#333;
+	position:absolute;
+	bottom:0;	
+	color:#ddd;
+	padding-top:12px;
+}
+footer a{
+	color:#ddd;
+}
+
+/*	PULSE animation: */
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0.8);
+    box-shadow: 0 0 0 10px rgba(204,169,44, 0.8);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
