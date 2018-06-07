@@ -5,7 +5,7 @@ This is my github repository for the #JavaScript 30 Project by Wes Bos.
 All Projects will be stored in individual folders.
 To run those projects, simply pull the project and open the index.html in your browser.
 - [x] 01 - JavaScript Drum Kit
-- [ ] 02 - JS and CSS Clock
+- [x] 02 - JS and CSS Clock
 - [ ] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
 - [ ] 05 - Flex Panel Gallery
